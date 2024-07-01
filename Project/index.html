@@ -1,153 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        .navbar {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            background-color: white;
-            padding: 20px;
-            border: 1px solid black;
-            box-sizing: border-box;
-        }
-        .navbar-logo {
-            display: flex;
-            align-items: center;
-            flex-grow: 1;
-        }
-        .navbar-logo img {
-            height: 50px; 
-            margin-right: 10px;
-        }
-        .navbar-logo span {
-            font-size: 24px;
-            font-weight: 700;
-        }
-        .navbar-menu {
-            display: flex;
-            gap: 40px;
-            flex-grow: 2;
-            justify-content: center;
-        }
-        .navbar-menu li {
-            list-style-type: none;
-        }
-        .navbar-menu li a {
-            text-decoration: none;
-            color: black;
-            font-weight: 400;
-            font-size: 22px;
-        }
-        .navbar-menu li a:hover {
-            color: #868B8E;
-        }
-        h1{
-            
-            font-size: 48px;
-            margin: 20px 0;
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            text-align: center;
-        }
-        body {
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        .content {
-            flex: 1;
-        }
-        .footer {
-            display: flex;
-            justify-content: space-around;
-            padding: 40px;
-            background-color: #f8f8f8;
-            border-top: 1px solid #000;
-        }
-        .footer > div {
-            flex: 1;
-            margin: 0 20px;
-        }
-        .footer h3 {
-            font-size: 24px;
-            font-weight: 700;
-        }
-        .footer p {
-            font-size: 16px;
-            font-weight: 400;
-            color: #333;
-            margin: 10px 0;
-        }
-        .footer input[type="email"] {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #000;
-            box-sizing: border-box;
-        }
-        .footer input[type="submit"] {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #000;
-            background-color: #fff;
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body>
-    <div class="content"></div>
-    <div class="navbar">
-        <div class="navbar-logo">
-            <img src="Logo.png" alt="Logo"> 
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hot Wire Extensions</title>
+    <link rel="stylesheet" href="/Project/Index.css" />
+    <link rel="stylesheet" href="/Project/Footer.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?
+    family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="banner">
+      <!-- Header -->
+      <div class="navbar">
+        <a href="/Project/index.html"
+          ><img
+            src="https://static1.squarespace.com/static/5ee0f14fd143d11b85885c5c/t/5f53c8caa081cc5ab30a933f/1715587143403/"
+            alt="Logo"
+            class="logo"
+        /></a>
+        <ul>
+          <li><a href="/Project/index.html">Home</a></li>
+          <li><a href="Products.html">Products</a></li>
+          <li><a href="AboutUs.html">About Us</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="Impressum.html">Impressum</a></li>
+          <li><a href="Jobs.html">Jobs</a></li>
+          <li><a href="/Project/Location.html">Location</a></li>
+          <li><a href="/Project/Contact.html">Contact</a></li>
+          <li><a href="/Project/Shopping.html">Shopping</a></li>
+        </ul>
+      </div>
+
+      <!-- Page -->
+      <div class="content">
+        <h2>Details are not only details, they're much more.</h2>
+        <p>press the icon to get latest updates and more information.</p>
+        <div>
+          <a href="/html files/newsletter.html"
+            ><button type="button"><span></span>NEWSLETTER</button></a
+          >
+          <a href="/Project/AboutUs.html"
+            ><button type="button"><span></span>ABOUT US</button></a
+          >
         </div>
-        <ul class="navbar-menu">
-            <li><a href="Index.html">Homepage</a></li>
-            <li><a href="Products.html">Products</a></li>
-            <li><a href="AboutUs.html">About Us</a></li>
-            <li><a href="Gallery.html">Gallery</a></li>
-            <li><a href="Impressum.html">Impressum</a></li>
-            <li><a href="Jobs.html">Jobs</a></li>
-        </ul>
-        </ul>
-       
+      </div>
     </div>
-    <h1>Hot Wire Extensions</h1>
-</div>
-<div class="footer">
-    <div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div>
         <h3>Newsletter</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-        <input type="email" placeholder="Email-Address">
-        <input type="submit" value="Subscribe">
-    </div>
-    <div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna
+        </p>
+        <input type="email" placeholder="Email-Address" />
+        <input type="submit" value="Subscribe" />
+      </div>
+      <div>
         <h3>Company</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+      <div>
         <h3>Information</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
     </div>
-</div>
-</body>
+  </body>
 </html>

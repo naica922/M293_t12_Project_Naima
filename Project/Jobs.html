@@ -1,149 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jobs</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f4f4f4;
-            flex-direction: column;
-        }
-        form {
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 400px;
-            width: 100%;
-            margin-top: 80px;
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        .form-group label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        .form-group input,
-        .form-group select,
-        .form-group textarea {
-            width: calc(100% - 20px);
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        .form-group textarea {
-            resize: vertical;
-        }
-        .form-group button {
-            display: inline-block;
-            padding: 10px 20px;
-            background: #868a8e;
-            color: #fff;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        .form-group button:hover {
-            background: #acbbcb;
-        }
-        .navbar {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            background-color: white;
-            padding: 20px;
-            border-bottom: 1px solid black;
-            box-sizing: border-box;
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 1000;
-        }
-        .navbar-logo {
-            display: flex;
-            align-items: center;
-            flex-grow: 1;
-        }
-        .navbar-logo img {
-            height: 50px;
-            margin-right: 10px;
-        }
-        .navbar-logo span {
-            font-size: 24px;
-            font-weight: 700;
-        }
-        .navbar-menu {
-            display: flex;
-            gap: 40px;
-            flex-grow: 2;
-            justify-content: center;
-        }
-        .navbar-menu li {
-            list-style-type: none;
-        }
-        .navbar-menu li a {
-            text-decoration: none;
-            color: black;
-            font-weight: 400;
-            font-size: 18px;
-        }
-        .navbar-menu li a:hover {
-            color: #868B8E;
-        }
-    </style>
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/Project/Jobs.css" rel="stylesheet" />
+    <link href="/Project/Footer.css" rel="stylesheet" />
+    <link href="/Project/NavbarTwo.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="banner">
+    <!-- Header -->
     <div class="navbar">
-        <div class="navbar-logo">
-            <img src="./Logo.png" alt="Logo">
-        </div>
-        <ul class="navbar-menu">
-            <li><a href="Index.html">Homepage</a></li>
-            <li><a href="Products.html">Products</a></li>
-            <li><a href="AboutUs.html">About Us</a></li>
-            <li><a href="Gallery.html">Gallery</a></li>
-            <li><a href="Impressum.html">Impressum</a></li>
-            <li><a href="Jobs.html">Jobs</a></li>
+        <a href="/Project/index.html"
+          ><img
+            src="https://static1.squarespace.com/static/5ee0f14fd143d11b85885c5c/t/5f53c8caa081cc5ab30a933f/1715587143403/"
+            alt="Logo"
+            class="logo"
+        /></a>
+        <ul>
+          <li><a href="/Project/index.html">Home</a></li>
+          <li><a href="Products.html">Products</a></li>
+          <li><a href="AboutUs.html">About Us</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="Impressum.html">Impressum</a></li>
+          <li><a href="Jobs.html">Jobs</a></li>
+          <li><a href="/Project/Location.html">Location</a></li>
+          <li><a href="/Project/Contact.html">Contact</a></li>
+          <li><a href="/Project/Shopping.html">Shopping</a></li>
         </ul>
-    </div>
+      </div>
+
+    <!-- Page -->
     <form>
-        <div class="form-group">
-            <label for="geschlecht">Geschlecht:</label>
-            <select name="geschlecht" id="geschlecht">
-                <option value="Weiblich">Weiblich</option>
-                <option value="Männlich" selected>Männlich</option>
-                <option value="Divers">Divers</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-        </div>
-        <div class="form-group">
-            <label for="email">E-Mail:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-        <div class="form-group">
-            <label for="phone">Telefonnummer:</label>
-            <input type="tel" id="phone" name="phone">
-        </div>
-        <div class="form-group">
-            <label for="message">Nachricht:</label>
-            <textarea id="message" name="message" rows="4"></textarea>
-        </div>
-        <div class="form-group">
-            <button type="submit">Absenden</button>
-        </div>
+      <div class="form-group">
+        <label for="geschlecht">Geschlecht:</label>
+        <select name="geschlecht" id="geschlecht">
+          <option value="Weiblich">Weiblich</option>
+          <option value="Männlich" selected>Männlich</option>
+          <option value="Divers">Divers</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="phone">Telefonnummer:</label>
+        <input type="tel" id="phone" name="phone" />
+      </div>
+      <div class="form-group">
+        <label for="message">Nachricht:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit">Absenden</button>
+      </div>
     </form>
-</body>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div>
+        <h3>Newsletter</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna
+        </p>
+        <input type="email" placeholder="Email-Address" />
+        <input type="submit" value="Subscribe" />
+      </div>
+      <div>
+        <h3>Company</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+      <div>
+        <h3>Information</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
