@@ -18,7 +18,6 @@
 .map-container {
   overflow: hidden;
   padding-bottom: 45%;
-  position: relative;
   height: 0;
   display: flex;
   justify-content: center;
