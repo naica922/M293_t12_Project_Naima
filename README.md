@@ -18,7 +18,11 @@ I invested a lot of time in these documents, but in the end it became even more 
 After that, I started with the realisation and continued it in class and at home.<br>
 
 ## Instructions for use:
-If you want to view my website you can follow these steps:<br>
+If you want to view my website and the code you can follow these steps<br>
+Vercel Link:<br>
+https://m293-t12-project-naima-4t95.vercel.app/<br>
+
+With the code:
 1. clone from the repository<br>
 2. open the code in your editor (e.g. VSC)<br>
 3. download "Live Server" extension<br>
@@ -28,4 +32,6 @@ If you want to view my website you can follow these steps:<br>
 ## Automation:
 I made my website automation with Vercel.<br>
 If you want to view my website there, you will not see the CSS effects on the homepage, this is because Vercel does not automatically recognise the effects.<br>
-So if you also want to see the effect then open it with VSC as described<br>
+So if you also want to see the effect then open it with VSC as described.<br>
+
+https://m293-t12-project-naima-4t95.vercel.app
