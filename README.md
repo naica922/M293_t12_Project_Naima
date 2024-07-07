@@ -17,3 +17,15 @@ For the project I created a mockup with draw.io and Wirefreames, which helped me
 I invested a lot of time in these documents, but in the end it became even more complex because I realised that I didn't meet all the criteria. <br>
 After that, I started with the realisation and continued it in class and at home.<br>
 
+## Instructions for use:
+If you want to view my website you can follow these steps:<br>
+1. clone from the repository<br>
+2. open the code in your editor (e.g. VSC)<br>
+3. download "Live Server" extension<br>
+4. click on "live" at the bottom right of the IDE<br>
+5. now a window should open in your browser and you will see the website :)<br>
+
+## Automation:
+I made my website automation with Vercel.<br>
+If you want to view my website there, you will not see the CSS effects on the homepage, this is because Vercel does not automatically recognise the effects.<br>
+So if you also want to see the effect then open it with VSC as described<br>
