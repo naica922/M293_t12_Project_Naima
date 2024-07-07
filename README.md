@@ -12,6 +12,9 @@ I came up with several ideas, but I had to choose one. My ideas were a website f
 I chose the third idea because I had a lot of ideas for individual pages.<br>
 After this step I visited other websites for inspiration and ideas for a design. <br>
 
+my cousin invented "hot wire extensions" and is now active internationally.<br>
+He already has a website, but I wanted to build my own for him because I do not really like his, but I am a fan of his design. 
+
 ## Realisation: 
 For the project I created a mockup with draw.io and Wirefreames, which helped me with the realisation and an idea of how it should look.<br>
 I invested a lot of time in these documents, but in the end it became even more complex because I realised that I didn't meet all the criteria. <br>
