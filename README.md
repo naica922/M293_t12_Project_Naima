@@ -1,4 +1,4 @@
-# Module 293 Webseite Dokumentation
+# Module 293 Website Documentation
 
 ## Description of the assignment:
 The task was to solve exercises with HTML and CSS. <br>
