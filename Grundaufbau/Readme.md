@@ -18,12 +18,3 @@ Logo: Da ich die Webseite von meinem Couseng anders designe, habe ich das Logo s
 ![LogoHWE](image-2.png)
 
 Schriftart: Für Titel sowie die Navbar etc möchte ich von Google Fonts die Schrift Monserrat brauchen.  
-
-Farben: Für die Farben möchte ich eher schlichte Farben verwenden. <br>
-![FarbenPalette](image-1.png)
-
-## Template Seiten
-
-## Inhaltsseiten
-
-## Publikation
